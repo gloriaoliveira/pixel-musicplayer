@@ -1,7 +1,10 @@
 function ProgressBar() {
   return (
     <div className="progress-bar">
-      <div className="progress"></div>
+      <span className="time-current">0:00</span>
+      <input type="range" className="progress"/>
+      <img src="" alt="" className="progress-thumb" />
+      <span className="time-total">3:45</span>
     </div>
   )
 }

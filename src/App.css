@@ -1,4 +1,36 @@
-.counter {
+.player-window {
+  width: 360px;
+  margin: 40px auto;
+  font-family: sans-serif;
+  color: black;
+}
+
+.title-bar {
+  background-color: lightblue;
+  padding: 8px;
+}
+
+.artwork {
+  background-color: lightgreen;
+  height: 150px;
+}
+
+.player-controls {
+  background-color: lightyellow;
+  padding: 8px;
+}
+
+.progress-bar {
+  background-color: lightpink;
+  padding: 8px;
+}
+
+
+
+
+
+
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +213,4 @@
     right: 0;
     border-right-color: var(--border);
   }
-}
+} */

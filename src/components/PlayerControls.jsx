@@ -1,4 +1,4 @@
-function PlayerControls() {
+function PlayerControls(props) {
   return (
     <div className="player-controls">
         <div className="album-cover"></div>
@@ -7,7 +7,9 @@ function PlayerControls() {
         <div className="artist-name">Artist Name</div>
         <div className="player-btns">
             <button>⏮️</button>   {/* anterior */}
-            <button>⏯️</button>   {/* play/pause */}
+            <button onClick={props.aoClicarPlay}>
+                {props.isPlaying ? '⏸️' : '▶️'}
+            </button>   {/* play/pause */}
             <button>⏭️</button>   {/* próximo */}
         </div> 
     </div>
